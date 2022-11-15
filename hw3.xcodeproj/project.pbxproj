@@ -11,6 +11,8 @@
 		BA4EFA4828F7A53C004A283B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA4EFA4728F7A53C004A283B /* ContentView.swift */; };
 		BA4EFA4A28F7A53F004A283B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA4EFA4928F7A53F004A283B /* Assets.xcassets */; };
 		BA4EFA4D28F7A53F004A283B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA4EFA4C28F7A53F004A283B /* Preview Assets.xcassets */; };
+		BA92F3092922AA3000E4928C /* welcomePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA92F3082922AA3000E4928C /* welcomePage.swift */; };
+		BA92F30C2922ACC800E4928C /* gamePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA92F30B2922ACC800E4928C /* gamePage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +22,8 @@
 		BA4EFA4928F7A53F004A283B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BA4EFA4C28F7A53F004A283B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		BA4EFA4E28F7A53F004A283B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BA92F3082922AA3000E4928C /* welcomePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = welcomePage.swift; sourceTree = "<group>"; };
+		BA92F30B2922ACC800E4928C /* gamePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gamePage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +58,8 @@
 			children = (
 				BA4EFA4528F7A53C004A283B /* hw3App.swift */,
 				BA4EFA4728F7A53C004A283B /* ContentView.swift */,
+				BA92F30B2922ACC800E4928C /* gamePage.swift */,
+				BA92F3082922AA3000E4928C /* welcomePage.swift */,
 				BA4EFA4928F7A53F004A283B /* Assets.xcassets */,
 				BA4EFA4E28F7A53F004A283B /* Info.plist */,
 				BA4EFA4B28F7A53F004A283B /* Preview Content */,
@@ -138,7 +144,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BA92F30C2922ACC800E4928C /* gamePage.swift in Sources */,
 				BA4EFA4828F7A53C004A283B /* ContentView.swift in Sources */,
+				BA92F3092922AA3000E4928C /* welcomePage.swift in Sources */,
 				BA4EFA4628F7A53C004A283B /* hw3App.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

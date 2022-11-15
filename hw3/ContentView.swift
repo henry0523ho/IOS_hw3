@@ -8,9 +8,14 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    @State var page:String = "welcome"
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        if page=="welcome"{
+            welcomePage(page: $page)
+        }else if page=="game"{
+            gamePage(page: $page)
+        }
     }
 }
 
