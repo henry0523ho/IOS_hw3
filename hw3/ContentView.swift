@@ -17,6 +17,8 @@ struct ContentView: View {
             gamePage(page: $page)
         }else if page=="date"{
             datePage(page:$page)
+        }else if page=="name"{
+            namePage(page: $page)
         }
     }
 }

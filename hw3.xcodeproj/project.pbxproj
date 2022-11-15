@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		49CD046F292368B90026307A /* datePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49CD046E292368B80026307A /* datePage.swift */; };
+		49CD04722923A1600026307A /* namePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49CD04712923A15F0026307A /* namePage.swift */; };
 		BA4EFA4628F7A53C004A283B /* hw3App.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA4EFA4528F7A53C004A283B /* hw3App.swift */; };
 		BA4EFA4828F7A53C004A283B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA4EFA4728F7A53C004A283B /* ContentView.swift */; };
 		BA4EFA4A28F7A53F004A283B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA4EFA4928F7A53F004A283B /* Assets.xcassets */; };
@@ -18,6 +19,7 @@
 
 /* Begin PBXFileReference section */
 		49CD046E292368B80026307A /* datePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = datePage.swift; sourceTree = "<group>"; };
+		49CD04712923A15F0026307A /* namePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = namePage.swift; sourceTree = "<group>"; };
 		BA4EFA4228F7A53C004A283B /* hw3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = hw3.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA4EFA4528F7A53C004A283B /* hw3App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hw3App.swift; sourceTree = "<group>"; };
 		BA4EFA4728F7A53C004A283B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -63,6 +65,7 @@
 				49CD046E292368B80026307A /* datePage.swift */,
 				BA92F30B2922ACC800E4928C /* gamePage.swift */,
 				BA92F3082922AA3000E4928C /* welcomePage.swift */,
+				49CD04712923A15F0026307A /* namePage.swift */,
 				BA4EFA4928F7A53F004A283B /* Assets.xcassets */,
 				BA4EFA4E28F7A53F004A283B /* Info.plist */,
 				BA4EFA4B28F7A53F004A283B /* Preview Content */,
@@ -152,6 +155,7 @@
 				49CD046F292368B90026307A /* datePage.swift in Sources */,
 				BA92F3092922AA3000E4928C /* welcomePage.swift in Sources */,
 				BA4EFA4628F7A53C004A283B /* hw3App.swift in Sources */,
+				49CD04722923A1600026307A /* namePage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
