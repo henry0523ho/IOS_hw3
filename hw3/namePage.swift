@@ -9,10 +9,12 @@ import SwiftUI
 
 struct namePage: View {
     @Binding var page:String
+    @State var lastname:String=""
     @State var name:String=""
-    
     var result=["大凶","凶","平","吉","大吉"]
     
+    @State var lnameResult:Int = -1
+    @State var nameResult:Int = -1
     var body: some View {
         ZStack{
             VStack{
@@ -20,10 +22,19 @@ struct namePage: View {
                     .font(.largeTitle)
                     .padding(/*@START_MENU_TOKEN@*/.all/*@END_MENU_TOKEN@*/)
                 Form{
+                    TextField("輸入你的姓氏", text: $lastname)
                     TextField("輸入你的名字", text: $name)
-                    if name != ""{
-                        Text("\(name)的算命結果為\(result[ (Int(name.hash)<0 ? Int(name.hash) * -1 : Int(name.hash)) % 5])")
+                    Button(action: {
+                        lnameResult=(Int(name.hash)<0 ? Int(name.hash) * -1 : Int(name.hash)) % 5
+                        nameResult=Int.random(in: 0...4)
+                    }, label: {
+                        Text("開始算命")
+                    })
+                    if lnameResult != -1 && nameResult != -1{
+                        Text("姓氏'\(lastname)'的算命結果為\n\(result[lnameResult]) ")
+                        Text("名字'\(name)'的算命結果為\n\(result[nameResult])")
                     }
+                    
                 }
                 
             }
