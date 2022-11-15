@@ -9,12 +9,14 @@ import SwiftUI
 
 struct ContentView: View {
     
-    @State var page:String = "welcome"
+    @State var page:String = "game"
     var body: some View {
         if page=="welcome"{
             welcomePage(page: $page)
         }else if page=="game"{
             gamePage(page: $page)
+        }else if page=="date"{
+            datePage(page:$page)
         }
     }
 }
