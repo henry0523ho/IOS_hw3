@@ -20,7 +20,7 @@ struct namePage: View {
             VStack{
                 Text("姓名算命")
                     .font(.largeTitle)
-                    .padding(/*@START_MENU_TOKEN@*/.all/*@END_MENU_TOKEN@*/)
+                    .padding(.all)
                 Form{
                     TextField("輸入你的姓氏", text: $lastname)
                     TextField("輸入你的名字", text: $name)
