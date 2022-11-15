@@ -9,7 +9,7 @@ import SwiftUI
 
 struct ContentView: View {
     
-    @State var page:String = "game"
+    @State var page:String = "welcome"
     var body: some View {
         if page=="welcome"{
             welcomePage(page: $page)
