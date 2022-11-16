@@ -19,6 +19,8 @@ struct ContentView: View {
             datePage(page:$page)
         }else if page=="name"{
             namePage(page: $page)
+        }else if page=="fb"{
+            fbPage(page: $page)
         }
     }
 }

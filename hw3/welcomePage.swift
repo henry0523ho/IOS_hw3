@@ -36,6 +36,13 @@ struct welcomePage: View {
                     .padding(.all).background(Color(red: 0.3, green: 0.3, blue: 0.5))
                     .foregroundColor(Color(red: 0.9, green: 0.9, blue: 1.0))
             })
+            Button(action: {
+                page="fb"
+            }, label: {
+                Text("言論模擬器")
+                    .padding(.all).background(Color(red: 0.3, green: 0.3, blue: 0.5))
+                    .foregroundColor(Color(red: 0.9, green: 0.9, blue: 1.0))
+            })
         }
     }
 }

@@ -38,6 +38,12 @@ struct namePage: View {
                 }
                 
             }
+            Button(action: {
+                page="welcome"
+            }, label: {
+                Image(systemName: "arrow.left").resizable().scaledToFit().frame(width: 30, height: 30, alignment: .center)
+                    .padding(.all).background(Color(red: 0.5, green: 0.5, blue: 0.5)).foregroundColor(Color(red: 0.9, green: 0.9, blue: 0.9)).cornerRadius(10.0).border(Color.white, width: 1)
+            }).position(x: 35.0, y: 35.0)
             
         }
     }
